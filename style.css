@@ -1,0 +1,44 @@
+.container {
+  font-family: monospace, sans-serif ;
+ display: flex;
+ border: solid;
+ max-width:30em;
+}
+
+.usr-img {
+  max-width: 5em;
+  margin: 1em;
+  border: solid;
+  border-radius:3em;
+}
+.container-done {
+  border-color: green
+}
+.container-not-started {
+  border-color: black
+}
+.container-overdue {
+  border-color: red
+}
+.container-in-progress {
+  border-color: #E0DE39
+}
+
+
+.done {
+  color: green
+}
+.not-started {
+  color: black;
+}
+.overdue {
+  color: red
+}
+.in-progress {
+  color: #E0DE39
+}
+.done-check-container, .done-check {
+  max-width: 6.5em;
+
+}
+
